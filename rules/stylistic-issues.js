@@ -14,7 +14,7 @@ module.exports = {
     'key-spacing': ['error', { beforeColon: false, afterColon: true, mode: 'minimum' }],
     'keyword-spacing': ['error', { before: true, after: true, overrides: { function: { after: false } } }],
     'linebreak-style': ['error', 'unix'],
-    'max-len': ['error', { code: 80, ignoreUrls: true }],
+    'max-len': ['error', { code: 100, ignoreUrls: true }],
     'max-nested-callbacks': ['error', { max: 5 }],
     'new-cap': ['error', { newIsCap: true, capIsNew: true, properties: true }],
     'new-parens': ['error'],
