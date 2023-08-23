@@ -2,6 +2,16 @@
 
 ## [Unreleased][unreleased]
 
+## [1.1.1][] - 2023-08-23
+
+- Avoid arrow parens
+- Anonymous functions space fix
+
+## [1.1.0][] - 2023-08-01
+
+- Update row size 80 -> 100
+- Missconfiguration fix
+
 ## [1.0.0][] - 2023-07-31
 
 - Stable release version
