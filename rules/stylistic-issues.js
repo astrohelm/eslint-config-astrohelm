@@ -2,7 +2,11 @@
 
 module.exports = {
   rules: {
-    indent: ['error', 2, { SwitchCase: 1, VariableDeclarator: { let: 2, const: 3 }, MemberExpression: 1 }],
+    indent: [
+      'error',
+      2,
+      { SwitchCase: 1, VariableDeclarator: { let: 2, const: 3 }, MemberExpression: 1 },
+    ],
     'block-spacing': ['error', 'always'],
     'brace-style': ['error', '1tbs', { allowSingleLine: true }],
     camelcase: ['error'],
@@ -12,7 +16,10 @@ module.exports = {
     'eol-last': ['error'],
     'func-call-spacing': ['error', 'never'],
     'key-spacing': ['error', { beforeColon: false, afterColon: true, mode: 'minimum' }],
-    'keyword-spacing': ['error', { before: true, after: true, overrides: { function: { after: false } } }],
+    'keyword-spacing': [
+      'error',
+      { before: true, after: true, overrides: { function: { after: false } } },
+    ],
     'linebreak-style': ['error', 'unix'],
     'max-len': ['error', { code: 100, ignoreUrls: true }],
     'max-nested-callbacks': ['error', { max: 5 }],
@@ -29,7 +36,10 @@ module.exports = {
     semi: ['error', 'always'],
     'semi-spacing': ['error', { before: false, after: true }],
     'space-before-blocks': ['error', 'always'],
-    'space-before-function-paren': ['error', { anonymous: 'never', named: 'never', asyncArrow: 'always' }],
+    'space-before-function-paren': [
+      'error',
+      { anonymous: 'always', named: 'never', asyncArrow: 'always' },
+    ],
     'space-in-parens': ['error', 'never'],
     'space-infix-ops': ['error'],
     'space-unary-ops': ['error', { words: true, nonwords: false, overrides: { typeof: false } }],

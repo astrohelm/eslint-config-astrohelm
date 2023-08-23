@@ -4,7 +4,7 @@ module.exports = {
   env: { es6: true },
   rules: {
     'arrow-body-style': ['error', 'as-needed'],
-    'arrow-parens': ['error', 'always'],
+    'arrow-parens': ['error', 'as-needed'],
     'arrow-spacing': ['error'],
     'no-useless-computed-key': ['error'],
     'no-useless-rename': ['error'],
