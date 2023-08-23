@@ -1,19 +1,32 @@
 {
   "license": "MIT",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "type": "commonjs",
   "name": "eslint-config-astrohelm",
   "homepage": "https://github.com/astrohelm/eslint-config-astrohelm",
   "description": "Astrohelm ESLint ruleset configuration",
   "author": "Alexander Ivanov <sashapop101@gmail.com>",
-  "keywords": ["ruleset", "astrohelm", "eslint", "eslint-config", "lint", "linter", "config", "preset", "eslint-rules"],
+  "keywords": [
+    "ruleset",
+    "astrohelm",
+    "eslint",
+    "eslint-config",
+    "lint",
+    "linter",
+    "config",
+    "preset",
+    "eslint-rules"
+  ],
 
   "main": "index.js",
   "packageManager": "npm@9.6.4",
   "readmeFilename": "README.md",
   "engines": { "node": "18 || 19 || 20" },
   "files": ["rules/"],
-  "repository": { "type": "git", "url": "git+https://github.com/astrohelm/eslint-config-astrohelm.git" },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/astrohelm/eslint-config-astrohelm.git"
+  },
 
   "bugs": {
     "url": "https://github.com/astrohelm/eslint-config-astrohelm/issues",
