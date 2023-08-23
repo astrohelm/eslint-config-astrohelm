@@ -19,7 +19,7 @@
 - Repository created
 
 [unreleased]: https://github.com/astrohelm/eslint-config-astrohelm/compare/release...HEAD
-[1.1.1]: https://github.com/astrohelm/eslint-config-astrohelm/compare/1.1.0...1.1.1
-[1.1.0]: https://github.com/astrohelm/eslint-config-astrohelm/compare/release...1.1.0
+[1.1.1]: https://github.com/astrohelm/eslint-config-astrohelm/compare/v1.1.0...v1.1.1
+[1.1.0]: https://github.com/astrohelm/eslint-config-astrohelm/compare/release...v1.1.0
 [1.0.0]: https://github.com/astrohelm/eslint-config-astrohelm/releases/tag/release
 [eslint-config-sashapop10]: https://github.com/sashapop10/eslint-config-sashapop10
