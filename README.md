@@ -25,6 +25,7 @@ npm i -D eslint prettier eslint-plugin-import eslint-config-sashapop10 eslint-co
 <h2 align="center">Copyright & contributors</h2>
 
 <p align="center">
-Copyright © 2023 <a href="https://github.com/astrohelm/eslint-config-astrohelm/graphs/contributors">astrohelm contributors</a>.
+Copyright © 2023 <a href="https://github.com/astrohelm/eslint-config-astrohelm/graphs/contributors">Astrohelm contributors</a>.
 ESLint-config-astrohelm is <a href="./LICENSE">MIT licensed license</a>.<br/>
+ESLint-config-astrohelm is part of <a href="https://github.com/astrohelm">Astrohelm ecosystem</a>.
 </p>
