@@ -2,6 +2,10 @@
 
 ## [Unreleased][unreleased]
 
+## [1.2.0][] - 2023-11-26
+
+- Return of Keyword var
+
 ## [1.1.1][] - 2023-08-23
 
 - Avoid arrow parens
