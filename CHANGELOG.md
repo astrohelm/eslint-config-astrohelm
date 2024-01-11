@@ -2,7 +2,7 @@
 
 ## [Unreleased][unreleased]
 
-## [1.3.0][] - 2024-12-01
+## [1.3.0][] - 2024-01-12
 
 - Variable shadowing
 - Updated packages
