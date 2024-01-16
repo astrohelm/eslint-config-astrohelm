@@ -1,16 +1,17 @@
 'use strict';
 
-const rules = [
-  'possible-errors',
-  'best-practices',
-  'strict-mode',
-  'variables',
-  'nodejs-and-commonjs',
-  'stylistic-issues',
-  'ecmascript-6',
-  'plugin-import',
-  'parser-options',
-  'ecmascript-13',
-].map(rule => require.resolve('./rules/' + rule));
-
-module.exports = { extends: ['eslint:recommended', ...rules] };
+module.exports = {
+  extends: [
+    'eslint:recommended',
+    require.resolve('./rules/possible-errors'),
+    require.resolve('./rules/best-practices'),
+    require.resolve('./rules/strict-mode'),
+    require.resolve('./rules/variables'),
+    require.resolve('./rules/nodejs-and-commonjs'),
+    require.resolve('./rules/stylistic-issues)'),
+    require.resolve('./rules/ecmascript-6'),
+    require.resolve('./rules/plugin-import'),
+    require.resolve('./rules/parser-options'),
+    require.resolve('./rules/ecmascript-13'),
+  ],
+};

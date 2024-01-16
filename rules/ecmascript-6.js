@@ -8,7 +8,6 @@ module.exports = {
     'arrow-spacing': ['error'],
     'no-useless-computed-key': ['error'],
     'no-useless-rename': ['error'],
-    // 'no-var': ['error'],
     'object-shorthand': ['error', 'always'],
     'prefer-arrow-callback': ['error'],
     'prefer-const': ['error'],
