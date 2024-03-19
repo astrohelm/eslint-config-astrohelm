@@ -8,7 +8,7 @@ module.exports = {
     require.resolve('./rules/strict-mode'),
     require.resolve('./rules/variables'),
     require.resolve('./rules/nodejs-and-commonjs'),
-    require.resolve('./rules/stylistic-issues)'),
+    require.resolve('./rules/stylistic-issues'),
     require.resolve('./rules/ecmascript-6'),
     require.resolve('./rules/plugin-import'),
     require.resolve('./rules/parser-options'),
