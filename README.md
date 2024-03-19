@@ -13,7 +13,7 @@ npm i -D npm i -D eslint eslint-plugin-import eslint-config-astrohelm
 
 **2**. Add `"extends": ["astrohelm"]` to your `.eslintrc`.
 
-**3**. _(optional)_ Add following scripts
+**3**. **_(optional)_** Add following scripts
 
 ```json
 // package.json
