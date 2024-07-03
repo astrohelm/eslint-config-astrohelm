@@ -2,6 +2,14 @@
 
 ## [Unreleased][unreleased]
 
+## [1.5.0][] - 2024-07-03
+
+- Redeclare within var
+- Return assignments
+- Stable packages
+- Var indent (2)
+- Readme fixes
+
 ## [1.4.0][] - 2024-03-19
 
 - Fixed bug with stylistic-issues
@@ -35,7 +43,8 @@
 - Forked from [eslint-config-sashapop10][sashapop10]
 - Repository created
 
-[unreleased]: https://github.com/astrohelm/eslint-config-astrohelm/compare/v1.4.0...HEAD
+[unreleased]: https://github.com/astrohelm/eslint-config-astrohelm/compare/v1.5.0...HEAD
+[1.5.0]: https://github.com/astrohelm/eslint-config-astrohelm/compare/v1.4.0...v1.5.0
 [1.4.0]: https://github.com/astrohelm/eslint-config-astrohelm/compare/v1.3.0...v1.4.0
 [1.3.0]: https://github.com/astrohelm/eslint-config-astrohelm/compare/v1.2.0...v1.3.0
 [1.2.0]: https://github.com/astrohelm/eslint-config-astrohelm/compare/v1.1.0...v1.2.0
