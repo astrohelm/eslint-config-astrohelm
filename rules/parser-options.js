@@ -1,3 +1,5 @@
 'use strict';
 
-module.exports = { parserOptions: { ecmaVersion: 'latest' } };
+module.exports = {
+  parserOptions: { ecmaVersion: 'latest' },
+};

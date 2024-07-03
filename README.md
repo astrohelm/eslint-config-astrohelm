@@ -8,7 +8,7 @@ make it work for you:
 **1**. Install required packages: <br/>
 
 ```bash
-npm i -D npm i -D eslint eslint-plugin-import eslint-config-astrohelm
+npm i -D eslint eslint-plugin-import eslint-config-astrohelm
 ```
 
 **2**. Add `"extends": ["astrohelm"]` to your `.eslintrc`.
@@ -19,8 +19,7 @@ npm i -D npm i -D eslint eslint-plugin-import eslint-config-astrohelm
 // package.json
 {
   "scripts": {
-    "lint": "eslint . && prettier --check \"**/*.js\" \"**/*.json\" \"**/*.md\" \".*rc\" \"**/*.yml\"",
-    "fmt": "prettier --write \"**/*.js\" \"**/*.json\" \"**/*.md\" \".*rc\" \"**/*.yml\""
+    "lint": "eslint ."
     //...
   }
   //...
