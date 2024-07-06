@@ -2,6 +2,10 @@
 
 ## [Unreleased][unreleased]
 
+## [1.5.1][] - 2024-07-06
+
+- Removed consistent brackets
+
 ## [1.5.0][] - 2024-07-03
 
 - Redeclare within var
@@ -44,6 +48,7 @@
 - Repository created
 
 [unreleased]: https://github.com/astrohelm/eslint-config-astrohelm/compare/v1.5.0...HEAD
+[1.5.1]: https://github.com/astrohelm/eslint-config-astrohelm/compare/v1.5.0...v1.5.1
 [1.5.0]: https://github.com/astrohelm/eslint-config-astrohelm/compare/v1.4.0...v1.5.0
 [1.4.0]: https://github.com/astrohelm/eslint-config-astrohelm/compare/v1.3.0...v1.4.0
 [1.3.0]: https://github.com/astrohelm/eslint-config-astrohelm/compare/v1.2.0...v1.3.0
