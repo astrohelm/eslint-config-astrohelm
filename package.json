@@ -1,6 +1,6 @@
 {
   "license": "MIT",
-  "version": "1.5.1",
+  "version": "1.6.0",
   "type": "commonjs",
   "name": "eslint-config-astrohelm",
   "homepage": "https://github.com/astrohelm/eslint-config-astrohelm",
