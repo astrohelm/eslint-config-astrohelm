@@ -53,7 +53,8 @@
 - Forked from [eslint-config-sashapop10][sashapop10]
 - Repository created
 
-[unreleased]: https://github.com/astrohelm/eslint-config-astrohelm/compare/v1.5.0...HEAD
+[unreleased]: https://github.com/astrohelm/eslint-config-astrohelm/compare/v1.6.0...HEAD
+[1.6.0]: https://github.com/astrohelm/eslint-config-astrohelm/compare/v1.5.0...v1.6.0
 [1.5.1]: https://github.com/astrohelm/eslint-config-astrohelm/compare/v1.5.0...v1.5.1
 [1.5.0]: https://github.com/astrohelm/eslint-config-astrohelm/compare/v1.4.0...v1.5.0
 [1.4.0]: https://github.com/astrohelm/eslint-config-astrohelm/compare/v1.3.0...v1.4.0
