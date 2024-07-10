@@ -15,7 +15,6 @@ module.exports = {
     'key-spacing': ['error', { beforeColon: false, afterColon: true, mode: 'minimum' }],
     'keyword-spacing': ['error', { before: true, after: true, overrides: { function: { after: false } } }],
     'linebreak-style': ['error', 'unix'],
-    'max-len': ['error', { code: 100, ignoreUrls: true }],
     'max-nested-callbacks': ['error', { max: 5 }],
     'new-cap': ['error', { newIsCap: true, capIsNew: true, properties: true }],
     'new-parens': ['error'],
@@ -35,5 +34,13 @@ module.exports = {
     'space-infix-ops': ['error'],
     'space-unary-ops': ['error', { words: true, nonwords: false, overrides: { typeof: false } }],
     'no-extra-parens': ['error', 'all', { returnAssign: false, nestedBinaryExpressions: false, enforceForArrowConditionals: false }],
+    'max-len': ['error', {
+      code: 100,
+      ignoreUrls: true,
+      ignorePattern: true,
+      ignoreRegExpLiterals: true,
+      ignoreTrailingComments: true,
+      ignoreComments: true,
+    }],
   },
 };

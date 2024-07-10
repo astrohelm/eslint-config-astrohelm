@@ -2,6 +2,12 @@
 
 ## [Unreleased][unreleased]
 
+## [1.6.0][] - 2024-07-10
+
+- Ignoring size of Regexp literals
+- Ignoring size of Comments
+- Ignoring size of Regexp
+
 ## [1.5.1][] - 2024-07-06
 
 - Removed consistent brackets
