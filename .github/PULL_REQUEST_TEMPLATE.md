@@ -18,9 +18,3 @@ Check following steps to help us land your changes:
 
 [CHANGES]: https://github.com/astrohelm/node-workspace/compare/vX.X.X...vX.X.X
 [CHANGELOG]: https://github.com/astrohelm/node-workspace/blob/main/CHANGELOG.md
-
-- [ ] tests and linter show no problems (`npm t`)
-- [ ] tests are added/updated for bug fixes and new features
-- [ ] code is properly formatted (`npm run fmt`)
-- [ ] description of changes is added in CHANGELOG.md
-- [ ] update .d.ts typings
