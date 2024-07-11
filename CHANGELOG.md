@@ -2,6 +2,12 @@
 
 ## [Unreleased][unreleased]
 
+## [1.7.0][] - 2024-07-11
+
+- Fixed error from v1.6.0
+- Added workflow tests support
+- Eslint config testing
+
 ## [1.6.0][] - 2024-07-10
 
 - Ignoring size of Regexp literals
@@ -53,7 +59,8 @@
 - Forked from [eslint-config-sashapop10][sashapop10]
 - Repository created
 
-[unreleased]: https://github.com/astrohelm/eslint-config-astrohelm/compare/v1.6.0...HEAD
+[unreleased]: https://github.com/astrohelm/eslint-config-astrohelm/compare/v1.7.0...HEAD
+[1.7.0]: https://github.com/astrohelm/eslint-config-astrohelm/compare/v1.6.0...v1.7.0
 [1.6.0]: https://github.com/astrohelm/eslint-config-astrohelm/compare/v1.5.0...v1.6.0
 [1.5.1]: https://github.com/astrohelm/eslint-config-astrohelm/compare/v1.5.0...v1.5.1
 [1.5.0]: https://github.com/astrohelm/eslint-config-astrohelm/compare/v1.4.0...v1.5.0

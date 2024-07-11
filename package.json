@@ -1,11 +1,15 @@
 {
   "license": "MIT",
-  "version": "1.6.0",
+  "version": "1.7.0",
   "type": "commonjs",
   "name": "eslint-config-astrohelm",
   "homepage": "https://github.com/astrohelm/eslint-config-astrohelm",
   "description": "Astrohelm ESLint rule set configuration",
   "author": "Alexander Ivanov <sashapop101@gmail.com>",
+
+  "scripts": {
+    "test": "node --test"
+  },
 
   "keywords": [
     "ruleset",
