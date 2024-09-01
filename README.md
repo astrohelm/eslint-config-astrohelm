@@ -1,21 +1,30 @@
-<h1 align="center"> Astrohelm ESLint ruleset configuration </h1>
+<h1 align="center"> Astrohelm ESLint rule set configuration </h1>
+
+Javascript style guide for [Astrohelm](https://github.com/astrohelm) projects. Follow next steps to
+make it work for you:
+
+## Usage
 
 **1**. Install required packages: <br/>
 
 ```bash
-npm i -D eslint prettier eslint-plugin-import eslint-config-sashapop10 eslint-config-prettier eslint-plugin-prettier
+npm i -D eslint eslint eslint-config-astrohelm
 ```
 
-**2**. Add `"extends": ["astrohelm"]` to your `.eslintrc`.
+**2**. Import `eslint-config-astrohelm` in `eslint.config.js`
 
-**3**. _(optional)_ Add following scripts
+```js
+const configAstrohelm = require('eslint-config-astrohelm');
+module.exports = [configAstrohelm];
+```
+
+**3**. **_(optional)_** Add following scripts
 
 ```json
 // package.json
 {
   "scripts": {
-    "lint": "eslint . && prettier --check \"**/*.js\" \"**/*.json\" \"**/*.md\" \".*rc\" \"**/*.yml\"",
-    "fmt": "prettier --write \"**/*.js\" \"**/*.json\" \"**/*.md\" \".*rc\" \"**/*.yml\""
+    "lint": "eslint ."
     //...
   }
   //...
