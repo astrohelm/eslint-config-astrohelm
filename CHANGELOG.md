@@ -2,6 +2,12 @@
 
 ## [Unreleased][unreleased]
 
+## [2.0.0][] - 2024-09-01
+
+- Update eslint to 9.x: Rewrite rules to plain format
+- Drop node.js 18.x support and add node.js 22 support
+- Update dependencies and package file structure
+
 ## [1.7.0][] - 2024-07-11
 
 - Fixed error from v1.6.0
@@ -59,7 +65,8 @@
 - Forked from [eslint-config-sashapop10][sashapop10]
 - Repository created
 
-[unreleased]: https://github.com/astrohelm/eslint-config-astrohelm/compare/v1.7.0...HEAD
+[unreleased]: https://github.com/astrohelm/eslint-config-astrohelm/compare/v2.0.0...HEAD
+[2.0.0]: https://github.com/astrohelm/eslint-config-astrohelm/compare/v1.7.0...v2.0.0
 [1.7.0]: https://github.com/astrohelm/eslint-config-astrohelm/compare/v1.6.0...v1.7.0
 [1.6.0]: https://github.com/astrohelm/eslint-config-astrohelm/compare/v1.5.0...v1.6.0
 [1.5.1]: https://github.com/astrohelm/eslint-config-astrohelm/compare/v1.5.0...v1.5.1

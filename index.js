@@ -1,17 +1,19 @@
 'use strict';
 
-module.exports = {
-  extends: [
-    'eslint:recommended',
-    require.resolve('./rules/possible-errors'),
-    require.resolve('./rules/best-practices'),
-    require.resolve('./rules/strict-mode'),
-    require.resolve('./rules/variables'),
-    require.resolve('./rules/nodejs-and-commonjs'),
-    require.resolve('./rules/stylistic-issues'),
-    require.resolve('./rules/ecmascript-6'),
-    require.resolve('./rules/plugin-import'),
-    require.resolve('./rules/parser-options'),
-    require.resolve('./rules/ecmascript-13'),
-  ],
-};
+const { recommended } = require('@eslint/js').configs;
+//prettier-ignore
+module.exports = [recommended, require('eslint-config-prettier'), {
+  languageOptions: { ecmaVersion: 'latest', sourceType: 'commonjs', globals: require('./lib/globals.js') },
+  plugins: { prettier: require('eslint-plugin-prettier') },
+  ignores: require('./lib/ignore.js'),
+  rules: Object.assign({}, ...[
+    require('./rules/best-practices.js'),
+    require('./rules/ecmascript-6.js'),
+    require('./rules/ecmascript-13.js'),
+    require('./rules/nodejs-and-commonjs.js'),
+    require('./rules/possible-errors.js'),
+    require('./rules/strict-mode.js'),
+    require('./rules/stylistic-issues.js'),
+    require('./rules/variables.js'),
+  ])
+}]

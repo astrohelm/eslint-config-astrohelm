@@ -8,10 +8,15 @@ make it work for you:
 **1**. Install required packages: <br/>
 
 ```bash
-npm i -D eslint eslint-plugin-import eslint-config-astrohelm
+npm i -D eslint eslint eslint-config-astrohelm
 ```
 
-**2**. Add `"extends": ["astrohelm"]` to your `.eslintrc`.
+**2**. Import `eslint-config-astrohelm` in `eslint.config.js`
+
+```js
+const configAstrohelm = require('eslint-config-astrohelm');
+module.exports = [configAstrohelm];
+```
 
 **3**. **_(optional)_** Add following scripts
 
