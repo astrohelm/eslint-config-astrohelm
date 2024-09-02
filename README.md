@@ -1,4 +1,4 @@
-<h1 align="center"> Astrohelm ESLint rule set configuration </h1>
+<h1 align="center"> Astrohelm ESLint configuration </h1>
 
 Javascript style guide for [Astrohelm](https://github.com/astrohelm) projects. Follow next steps to
 make it work for you:
