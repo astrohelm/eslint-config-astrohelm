@@ -15,5 +15,5 @@ Check following steps to help us land your changes:
 
 **Full Changelog:** [Latest update][FULL-CHANGELOG]
 
-[CHANGES]: https://github.com/astrohelm/node-workspace/compare/vX.X.X...vX.X.X
-[FULL-CHANGELOG]: https://github.com/astrohelm/node-workspace/blob/main/CHANGELOG.md
+[CHANGES]: https://github.com/astrohelm/eslint-config-astrohelm/compare/vX.X.X...vX.X.X
+[FULL-CHANGELOG]: https://github.com/astrohelm/eslint-config-astrohelm/blob/main/CHANGELOG.md

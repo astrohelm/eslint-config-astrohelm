@@ -9,7 +9,7 @@ jobs:
     strategy:
       matrix:
         node:
-          - 20
+          - 18
         os:
           - ubuntu-latest
 

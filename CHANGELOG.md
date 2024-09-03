@@ -4,6 +4,11 @@
 
 ## [2.1.0][] - 2024-09-03
 
+- Bug fixes with package.json
+- Readme update
+
+## [2.1.0][] - 2024-09-03
+
 - Code quality improvements
 - Conditional global variables
 - Disabled no-extra-parens rule
@@ -73,6 +78,7 @@
 - Repository created
 
 [unreleased]: https://github.com/astrohelm/eslint-config-astrohelm/compare/v2.1.0...HEAD
+[2.1.1]: https://github.com/astrohelm/eslint-config-astrohelm/compare/v2.1.0...v2.1.1
 [2.1.0]: https://github.com/astrohelm/eslint-config-astrohelm/compare/v2.0.0...v2.1.0
 [2.0.0]: https://github.com/astrohelm/eslint-config-astrohelm/compare/v1.7.0...v2.0.0
 [1.7.0]: https://github.com/astrohelm/eslint-config-astrohelm/compare/v1.6.0...v1.7.0
