@@ -1,7 +1,5 @@
 <h1 align="center"> Astrohelm linter configuration </h1>
 
-## Usage
-
 **1**. Install required packages: <br/>
 
 ```bash
