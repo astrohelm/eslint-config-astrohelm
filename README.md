@@ -1,4 +1,4 @@
-<h1 align="center"> Astrohelm ESLint configuration </h1>
+<h1 align="center"> Astrohelm linter configuration </h1>
 
 Javascript style guide for [Astrohelm](https://github.com/astrohelm) projects. Follow next steps to
 make it work for you:
@@ -8,14 +8,14 @@ make it work for you:
 **1**. Install required packages: <br/>
 
 ```bash
-npm i -D eslint eslint eslint-config-astrohelm
+npm i -D eslint eslint-config-astrohelm
 ```
 
 **2**. Import `eslint-config-astrohelm` in `eslint.config.js`
 
 ```js
 const configAstrohelm = require('eslint-config-astrohelm');
-module.exports = [configAstrohelm];
+module.exports = [...configAstrohelm];
 ```
 
 **3**. **_(optional)_** Add following scripts

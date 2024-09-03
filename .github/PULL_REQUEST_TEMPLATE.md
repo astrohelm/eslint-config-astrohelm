@@ -12,9 +12,8 @@ Check following steps to help us land your changes:
 - Deleted ...
 
 <!-- **Full Changelog:** [vX.X.X...vX.X.X][CHANGES] -->
-**Full Changelog:** [Latest update][FULL-CHANGELOG]
 
+**Full Changelog:** [Latest update][FULL-CHANGELOG]
 
 [CHANGES]: https://github.com/astrohelm/node-workspace/compare/vX.X.X...vX.X.X
 [FULL-CHANGELOG]: https://github.com/astrohelm/node-workspace/blob/main/CHANGELOG.md
-
