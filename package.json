@@ -1,13 +1,19 @@
 {
   "license": "MIT",
-  "version": "1.2.0",
+  "version": "2.1.0",
   "type": "commonjs",
   "name": "eslint-config-astrohelm",
   "homepage": "https://github.com/astrohelm/eslint-config-astrohelm",
-  "description": "Astrohelm ESLint ruleset configuration",
+  "description": "Astrohelm ESLint rule set configuration",
   "author": "Alexander Ivanov <sashapop101@gmail.com>",
+
+  "scripts": {
+    "test": "node --test"
+  },
+
   "keywords": [
     "ruleset",
+    "styleguide",
     "astrohelm",
     "eslint",
     "eslint-config",
@@ -18,10 +24,10 @@
     "eslint-rules"
   ],
 
-  "main": "index.js",
+  "main": "eslint.config.js",
   "packageManager": "npm@9.6.4",
   "readmeFilename": "README.md",
-  "engines": { "node": "18 || 19 || 20" },
+  "engines": { "node": ">= 18" },
   "files": ["rules/"],
   "repository": {
     "type": "git",
@@ -34,15 +40,9 @@
   },
 
   "devDependencies": {
-    "eslint": "^8.40.0",
-    "eslint-config-prettier": "^8.8.0",
-    "eslint-plugin-import": "^2.27.5",
-    "eslint-plugin-prettier": "^4.2.1",
-    "prettier": "^2.8.8"
-  },
-
-  "peerDependencies": {
-    "eslint": "^8.45.0",
-    "eslint-plugin-import": "^2.27.5"
+    "eslint": "^9.9.1",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-prettier": "^5.2.1",
+    "prettier": "^3.3.3"
   }
 }
