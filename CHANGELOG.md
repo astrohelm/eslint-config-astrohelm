@@ -5,6 +5,7 @@
 ## [2.1.0][] - 2024-09-03
 
 - Bug fixes with package.json
+- Readme update
 
 ## [2.1.0][] - 2024-09-03
 
