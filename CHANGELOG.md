@@ -2,6 +2,12 @@
 
 ## [Unreleased][unreleased]
 
+## [2.2.0][] - 2024-11-09
+
+- Remove dynamic functionality from globals
+- New global variables
+- New ignore patterns
+
 ## [2.1.0][] - 2024-09-03
 
 - Bug fixes with package.json
@@ -77,7 +83,8 @@
 - Forked from [eslint-config-sashapop10][sashapop10]
 - Repository created
 
-[unreleased]: https://github.com/astrohelm/eslint-config-astrohelm/compare/v2.1.0...HEAD
+[unreleased]: https://github.com/astrohelm/eslint-config-astrohelm/compare/v2.2.0...HEAD
+[2.2.0]: https://github.com/astrohelm/eslint-config-astrohelm/compare/v2.1.0...v2.2.0
 [2.1.1]: https://github.com/astrohelm/eslint-config-astrohelm/compare/v2.1.0...v2.1.1
 [2.1.0]: https://github.com/astrohelm/eslint-config-astrohelm/compare/v2.0.0...v2.1.0
 [2.0.0]: https://github.com/astrohelm/eslint-config-astrohelm/compare/v1.7.0...v2.0.0
