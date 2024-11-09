@@ -1,6 +1,6 @@
 {
   "license": "MIT",
-  "version": "2.1.1",
+  "version": "2.2.0",
   "type": "commonjs",
   "name": "eslint-config-astrohelm",
   "homepage": "https://github.com/astrohelm/eslint-config-astrohelm",
@@ -27,7 +27,7 @@
   "main": "eslint.config.js",
   "packageManager": "npm@9.6.4",
   "readmeFilename": "README.md",
-  "engines": { "node": ">= 18" },
+  "engines": { "node": ">= 23" },
   "files": ["lib/"],
   "repository": {
     "type": "git",
